@@ -68,6 +68,7 @@
         </div>
         <a href="#"><button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> Submit</button></a>
         <a href="#"><button type="reset" class="btn btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Reset</button></a>
+        <a href="owner_dashboard.php"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-arrow-left"></span> Cancel</button></a>
     </div>
   </form>
 </div>
