@@ -20,7 +20,7 @@
 		<article>
 			<h1>Recipient</h1>
 			<address contenteditable>
-				<p><input type="text" name="Customer Name" value="Customer Name	"></p>
+				<p><input type="text" name="Customer Name" placeholder="Customer Name"></p>
 			</address>
 			<table class="meta">
 				<tr>
