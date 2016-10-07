@@ -14,34 +14,36 @@
       <div class="container" id="logo">
   			<a class='logo' href="index.php">Inventory Management System</a>
   		</div>
-      <br><h1>Welcome to the Administrator Dashboard</h1>
+      <br><h1>Welcome to the Employee's Dashboard</h1>
       <div class="box-section row">
         <div class="col-md-4 text-center">
-          <br><br><br><br><a href="#"><button type="button" class="btn btn-danger" id="add_owner">
+          <br><br><br><br><a href="#"><button type="button" class="btn btn-danger" id="new_invoice">
             <span class="glyphicon glyphicon-plus-sign"></span> Click Here
           </button></a>
           <br>to
-          <br><legend>Add an Owner</legend>
-          <small class="text-danger text-center">Add a new Store Owner</small><br><br><br>
+          <br><legend>Create an Invoice</legend>
+          <small class="text-danger text-center">Create a new Invoice for a customer</small>
+          <br><br><br>
         </div>
 
         <div class="col-md-4 text-center">
-          <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="add_employee">
-            <span class="glyphicon glyphicon-user"></span> Click Here
+          <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="view_stock">
+            <span class="glyphicon glyphicon-tasks"></span> Click Here
           </button></a>
           <br>to
-          <br><legend>Add an Employee</legend>
-          <small class="text-danger text-center">Add an employee to the users-list of a store</small><br><br><br>
+          <br><legend>View Available Inventory</legend>
+            <small class="text-danger text-center">See the Available Items in the Inventory</small>
+            <br><br><br>
         </div>
 
         <div class="col-md-4 text-center">
-          <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="view_users">
+          <br><br><br><br><a href="#"><button type="button" class="btn btn-info" id="view_product">
             <span class="glyphicon glyphicon-search"></span> Click Here
           </button></a>
           <br>to
-          <br><legend>Current Users</legend>
-          <small class="text-danger text-center">View the list of all people using the service</small><br><br><br>
-
+          <br><legend>View Product Details</legend>
+          <small class="text-danger text-center">Get the details of a specific product</small>
+          <br><br><br>
         </div>
       </div>
 
