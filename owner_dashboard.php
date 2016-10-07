@@ -93,7 +93,7 @@
           </div>
 
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-danger" id="rm_user">
+            <br><br><br><br><a href="remove_employee"><button type="button" class="btn btn-danger" id="rm_user">
               <span class="glyphicon glyphicon-minus-sign"></span><span class="glyphicon glyphicon-user"></span> Click Here
             </button></a>
             <br>to

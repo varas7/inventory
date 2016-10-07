@@ -56,9 +56,9 @@
       </div>
 
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addowner"><span class="glyphicon glyphicon-check"></span> Submit</button>
-        <a href="#"><button type="reset" class="btn btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Reset</button></a>
-        <a href="admin_dashboard.php"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-arrow-left"></span> Cancel</button></a>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addowner"><span class="glyphicon glyphicon-check"></span> Submit</button>&nbsp
+        <a href="#"><button type="reset" class="btn btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Reset</button></a>&nbsp
+        <a href="admin_dashboard.php"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-arrow-left"></span> Cancel</button></a>&nbsp
         <!-- Modal -->
         <div class="modal fade" id="addowner" role="dialog">
           <div class="modal-dialog">
