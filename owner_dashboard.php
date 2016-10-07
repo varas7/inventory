@@ -29,7 +29,7 @@
           </div>
 
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="new_invoice">
+            <br><br><br><br><a href="invoice.php"><button type="button" class="btn btn-primary" id="new_invoice">
               <span class="glyphicon glyphicon-plus-sign"></span> Click Here
             </button></a>
             <br>to
@@ -39,7 +39,7 @@
           </div>
 
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-success" id="add_product">
+            <br><br><br><br><a href="add_product"><button type="button" class="btn btn-success" id="add_product">
               <span class="glyphicon glyphicon-plus-sign"></span> Click Here
             </button></a>
             <br>to
@@ -51,7 +51,7 @@
 
         <div class="row">
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-danger" id="rm_product">
+            <br><br><br><br><a href="remove_product"><button type="button" class="btn btn-danger" id="rm_product">
               <span class="glyphicon glyphicon-minus-sign"></span> Click Here
             </button></a>
             <br>to
