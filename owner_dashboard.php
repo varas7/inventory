@@ -83,7 +83,7 @@
 
         <div class="row">
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-success" id="add_employee">
+            <br><br><br><br><a href="add_employee"><button type="button" class="btn btn-success" id="add_employee">
               <span class="glyphicon glyphicon-plus-sign"></span><span class="glyphicon glyphicon-user"></span> Click Here
             </button></a>
             <br>to
@@ -93,7 +93,7 @@
           </div>
 
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-danger" id="rm_user">
+            <br><br><br><br><a href="remove_employee"><button type="button" class="btn btn-danger" id="rm_user">
               <span class="glyphicon glyphicon-minus-sign"></span><span class="glyphicon glyphicon-user"></span> Click Here
             </button></a>
             <br>to
