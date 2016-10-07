@@ -9,62 +9,67 @@
 </head>
 <body>
   <div class="container">
-      <h1 ><center>Inventory Management System</center></h1></br>
+    <div class="container" id="logo">
+      <a class='logo' href="index.php">Inventory Management System</a>
+    </div>
 
-<form class="form-horizontal" role="form">
-  <div class="container">
-<div class="form-group row">
-  <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Product ID :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="text"  id="example-text-input">
-  </div>
+<div class="box-section">
+  <br><br>
+  <form class="form-horizontal" role="form">
+    <div class="container">
+      <div class="form-group row">
+        <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Product ID :</label>
+        <div class="col-xs-4">
+          <input class="form-control" type="text"  id="example-text-input">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Product Name :</label>
+          <div class="col-xs-4">
+            <input class="form-control" type="text"  id="example-text-input">
+          </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Category :</label>
+        <div class="col-xs-4">
+            <input class="form-control" type="text"  id="example-text-input">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Quantity :</label>
+        <div class="col-xs-4">
+          <input class="form-control" type="text"  id="example-text-input">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Cost Price :</label>
+        <div class="col-xs-4">
+          <input class="form-control" type="text"  id="example-text-input">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Selling Price :</label>
+        <div class="col-xs-4">
+          <input class="form-control" type="text"  id="example-text-input">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-date-input" class="col-xs-4 col-form-label text-right">Enter Expiry Date :</label>
+          <div class="col-xs-4">
+            <input class="form-control" type="date" value="2016-10-07" id="example-date-input">
+          </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Manufacturing Company :</label>
+        <div class="col-xs-4">
+            <input class="form-control" type="text"  id="example-text-input">
+          </div>
+        </div>
+        <a href="#"><button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> Submit</button></a>
+        <a href="#"><button type="reset" class="btn btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Reset</button></a>
+    </div>
+  </form>
 </div>
-<div class="form-group row">
-  <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Product Name :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="text"  id="example-text-input">
-  </div>
-</div>
-<div class="form-group row">
-  <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Category :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="text"  id="example-text-input">
-  </div>
-</div>
-<div class="form-group row">
-  <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Quantity :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="text"  id="example-text-input">
-  </div>
-</div>
-<div class="form-group row">
-  <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Cost Price :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="text"  id="example-text-input">
-  </div>
-</div>
-<div class="form-group row">
-  <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Selling Price :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="text"  id="example-text-input">
-  </div>
-</div>
-<div class="form-group row">
-  <label for="example-date-input" class="col-xs-4 col-form-label text-right">Enter Expiry Date :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="date" value="2016-10-07" id="example-date-input">
-  </div>
-</div>
-<div class="form-group row">
-  <label for="example-text-input" class="col-xs-4 col-form-label text-right">Enter Manufacturing Company :</label>
-  <div class="col-xs-4">
-    <input class="form-control" type="text"  id="example-text-input">
-  </div>
-</div>
- <button type="submit" class="btn btn-default">Submit</button>                      <button type="reset" class="btn btn-default">Reset</button>
-</form>
-
-
   </div>
 </body>
 </html>
