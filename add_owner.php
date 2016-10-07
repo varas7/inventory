@@ -11,7 +11,7 @@
   <div class="container">
     <div class="container" id="logo">
       <a class='logo' href="index.php">Inventory Management System</a>
-      <h1>Add Employee</h1>
+      <h1>Add Owner</h1>
     </div>
 
 <div class="box-section">
@@ -56,11 +56,11 @@
       </div>
 
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#remprod"><span class="glyphicon glyphicon-check"></span> Submit</button>&nbsp
-        <a href="#"><button type="reset" class="btn btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Reset</button></a>&nbsp
-        <a href="owner_dashboard.php"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-arrow-left"></span> Cancel</button></a>&nbsp
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addowner"><span class="glyphicon glyphicon-check"></span> Submit</button>
+        <a href="#"><button type="reset" class="btn btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Reset</button></a>
+        <a href="admin_dashboard.php"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-arrow-left"></span> Cancel</button></a>
         <!-- Modal -->
-        <div class="modal fade" id="remprod" role="dialog">
+        <div class="modal fade" id="addowner" role="dialog">
           <div class="modal-dialog">
 
             <!-- Modal content-->
