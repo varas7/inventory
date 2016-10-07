@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Dashboard - Inventory Management System</title>
+  <title>Add Product</title>
   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" media="screen" title="no title">
   <link rel="stylesheet" href="style.css" media="screen" title="no title">
   <script src="js/jquery-3.1.0.min.js"></script>
@@ -11,6 +11,7 @@
   <div class="container">
     <div class="container" id="logo">
       <a class='logo' href="index.php">Inventory Management System</a>
+      <h1>Add Product</h1>
     </div>
 
 <div class="box-section">
