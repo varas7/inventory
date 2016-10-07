@@ -12,10 +12,10 @@
 			<a class='logo' href="index.php">Inventory Management System</a>
 		</div>
 		<h1>Login</h1>
-		<form action="login.php" method="POST">
-			<input type="text" id="username" placeholder="Enter your username" name="username">
-			<input type="password" id="pass" placeholder="Enter your password" name="pwd">
-			<input type="submit" id="sub" class="btn btn-primary" name="login">
-		</form>
+			<form action="login.php" method="POST">
+				<input type="text" id="username" placeholder="Enter your username" name="username">
+				<input type="password" id="pass" placeholder="Enter your password" name="pwd">
+				<input type="submit" id="sub" class="btn btn-primary" name="login">
+			</form>
 	</body>
 </html>
