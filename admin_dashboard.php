@@ -21,7 +21,8 @@
             <span class="glyphicon glyphicon-plus-sign"></span> Click Here
           </button></a>
           <br>to
-          <br><legend>Add an Owner</legend><br><br><br><br>
+          <br><legend>Add an Owner</legend>
+          <small class="text-danger text-center">Add a new Store Owner</small><br><br><br>
         </div>
 
         <div class="col-md-4 text-center">
@@ -29,7 +30,8 @@
             <span class="glyphicon glyphicon-user"></span> Click Here
           </button></a>
           <br>to
-          <br><legend>Add an Employee</legend><br><br><br><br>
+          <br><legend>Add an Employee</legend>
+          <small class="text-danger text-center">Add an employee to the users-list of a store</small><br><br><br>
         </div>
 
         <div class="col-md-4 text-center">
@@ -37,7 +39,8 @@
             <span class="glyphicon glyphicon-search"></span> Click Here
           </button></a>
           <br>to
-          <br><legend>View Current Users</legend><br><br><br><br>
+          <br><legend>Current Users</legend>
+          <small class="text-danger text-center">View the list of all people using the service</small><br><br><br>
 
         </div>
       </div>

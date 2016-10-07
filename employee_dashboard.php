@@ -17,7 +17,7 @@
       <br><h1>Welcome to the Employee's Dashboard</h1>
       <div class="box-section row">
         <div class="col-md-4 text-center">
-          <br><br><br><br><a href="#"><button type="button" class="btn btn-danger" id="add_owner">
+          <br><br><br><br><a href="#"><button type="button" class="btn btn-danger" id="new_invoice">
             <span class="glyphicon glyphicon-plus-sign"></span> Click Here
           </button></a>
           <br>to
@@ -27,8 +27,8 @@
         </div>
 
         <div class="col-md-4 text-center">
-          <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="add_employee">
-            <span class="glyphicon glyphicon-user"></span> Click Here
+          <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="view_stock">
+            <span class="glyphicon glyphicon-tasks"></span> Click Here
           </button></a>
           <br>to
           <br><legend>View Available Inventory</legend>
@@ -37,7 +37,7 @@
         </div>
 
         <div class="col-md-4 text-center">
-          <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="view_users">
+          <br><br><br><br><a href="#"><button type="button" class="btn btn-info" id="view_product">
             <span class="glyphicon glyphicon-search"></span> Click Here
           </button></a>
           <br>to
