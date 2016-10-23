@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="style.css" media="screen" title="no title">
 		<script src="js/jquery-3.1.0.min.js"></script>
 		<script src="css/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/validator.min.js"></script>
 	</head>
 	<body>
 		<?php
@@ -21,25 +22,28 @@
 		    </div>
 		    <div class="box-section"><br>
 
-		    	<form class="form-horizontal" role="form" id="sell_prod" method="POST" action="invoice.php">
+		    	<form class="form-horizontal" role="form" id="sell_prod" method="POST" action="invoice.php" data-toggle="validator">
 		    		<div class="container">
 
 		    			<div class="form-group row">
 	        				<label for="customer_name" class="col-xs-4 col-form-label text-right">Customer Name :</label>
 	        				<div class="col-xs-4">
-	            				<input class="form-control" type="text" name="customer_name"  id="cust_name">
+	            				<input class="form-control" type="text" name="customer_name"  id="cust_name"data-error="Please enter Customer name" required>
+											<div class="help-block with-errors"></div>
 	        				</div>
       					</div>
       					<div class="form-group row">
 	        				<label for="customer_con" class="col-xs-4 col-form-label text-right">Customer Contact :</label>
 	        				<div class="col-xs-4">
-	            				<input class="form-control" type="text" name="customer_con"  id="cust_con">
+	            				<input class="form-control" type="number" data-minlength="10" name="customer_con"  id="cust_con"  data-error="Please enter Contact number" required>
+											<div class="help-block with-errors"></div>
 	        				</div>
       					</div>
       					<div class="form-group row">
 	        				<label for="customer_addr" class="col-xs-4 col-form-label text-right">Customer Address :</label>
 	        				<div class="col-xs-4">
-	            				<input class="form-control" type="text" name="customer_addr"  id="cust_addr">
+	            				<input class="form-control" type="text" name="customer_addr"  id="cust_addr" data-error="Please enter Address" required>
+											<div class="help-block with-errors"></div>
 	        				</div>
       					</div>
 
