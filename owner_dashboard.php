@@ -1,3 +1,14 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['owner']))
+  {
+    header("Location: index.php");
+    exit();
+  }
+  include 'configuration.php';
+  if(!($dbconn = @mysql_connect($dbhost, $dbuser, $dbpass))) exit('Error connecting to database.');
+  mysql_select_db($db);
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,14 +23,14 @@
     <div class="container">
 
       <div class="container" id="logo">
-  			<a class='logo' href="index.php">Inventory Management System</a>
+  			<a class='logo' href="owner_dashboard.php">Inventory Management System</a>
   		</div>
       <br><h1>Welcome to the Store Owner's Area</h1>
       <div class="box-section row">
 
         <div class="row">
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="sell_product">
+            <br><br><br><br><a href="sell_product.php"><button type="button" class="btn btn-primary" id="sell_product">
               <span class="glyphicon glyphicon-usd"></span> Click Here
             </button></a>
             <br>to
@@ -103,7 +114,7 @@
           </div>
 
           <div class="col-md-4 text-center">
-            <br><br><br><br><a href="#"><button type="button" class="btn btn-info" id="view_product">
+            <br><br><br><br><a href="select_product.php"><button type="button" class="btn btn-info" id="view_product">
               <span class="glyphicon glyphicon-search"></span> Click Here
             </button></a>
             <br>to
