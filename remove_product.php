@@ -15,7 +15,7 @@
   ?>
   <div class="container">
     <div class="container" id="logo">
-      <a class='logo' href="index.php">Inventory Management System</a>
+      <a class='logo' href="owner_dashboard.php">Inventory Management System</a>
       <h1>Remove Product</h1>
     </div>
 

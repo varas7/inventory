@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <div class="container" id="logo">
-      <a class='logo' href="index.php">Inventory Management System</a>
+      <a class='logo' href="admin_dashboard.php">Inventory Management System</a>
       <h1>Add Owner</h1>
     </div>
 
