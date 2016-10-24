@@ -35,7 +35,7 @@
       					<div class="form-group row">
 	        				<label for="customer_con" class="col-xs-4 col-form-label text-right">Customer Contact :</label>
 	        				<div class="col-xs-4">
-	            				<input class="form-control" type="number" data-minlength="10" name="customer_con"  id="cust_con"  data-error="Please enter Contact number" required>
+	            				<input class="form-control" type="number" data-minlength="6" name="customer_con"  id="cust_con"  data-error="Please enter Contact number" required>
 											<div class="help-block with-errors"></div>
 	        				</div>
       					</div>
