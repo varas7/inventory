@@ -38,7 +38,7 @@
         </div>
 
         <div class="col-md-4 text-center">
-          <br><br><br><br><a href="#"><button type="button" class="btn btn-primary" id="view_stock">
+          <br><br><br><br><a href="avail_inv.php"><button type="button" class="btn btn-primary" id="view_stock">
             <span class="glyphicon glyphicon-tasks"></span> Click Here
           </button></a>
           <br>to
