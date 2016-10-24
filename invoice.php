@@ -1,3 +1,12 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Invoice</title>
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" media="screen" title="no title">
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="css/bootstrap/js/bootstrap.min.js"></script>
+</head>
 <?php
 	if( isset($_POST['submit']) ){
 		include 'configuration.php';
@@ -93,3 +102,6 @@
 	}
 
 ?>
+<br>
+<a href="sell_product.php"><button type="submit" name="submit" id="submitpro" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span>Back to Counter</button></a>&nbsp
+</html>
